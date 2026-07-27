@@ -541,12 +541,7 @@ function renderDefaultSidebar() {
     <div class="sidebar-empty">
       <h1>Provincial Wildfire Prediction Mapping</h1>
       <p>
-        Compare burn probability across BC's 100 most populated Wildland Urban Interface (WUI) communities.
-        WUI communities are places where people and wildland vegetation meet, while burn probability shows how
-        likely an area could experience wildfire. Population is included because the potential impacts of
-        wildfire depend not only on wildfire likelihood, but also on how many people and homes could be affected.
-        Each blue dot represents one community. Select a community in the scatterplot to highlight it and the map
-        will move directly to that community.
+        <strong>Use this webmap to compare burn probability across BC's 100 most populated Wildland Urban Interface (WUI) communities. This burn probability data tells you about the likelihood of a fire in any given season. In simple terms, it is how flammable any area could be in comparison to the areas around it. Each blue dot represents one community. Select a community in the scatterplot to highlight it and the map will move directly to that community.</strong>
       </p>
       ${riskComparisonChartHtml(null, "is-clickable")}
       <button class="sidebar-action" type="button" data-open-overview>View larger</button>
@@ -1057,8 +1052,7 @@ function openOverviewGraphModal() {
         <div>
           <h1 id="graph-modal-title">Provincial Wildfire Prediction Mapping</h1>
           <p>
-            Compare burn probability across BC's 100 most populated Wildland Urban Interface (WUI) communities.
-            Select a community in the scatterplot to highlight it and move the map directly there.
+            <strong>Use this webmap to compare burn probability across BC's 100 most populated Wildland Urban Interface (WUI) communities. This burn probability data tells you about the likelihood of a fire in any given season. In simple terms, it is how flammable any area could be in comparison to the areas around it. Each blue dot represents one community. Select a community in the scatterplot to highlight it and the map will move directly to that community.</strong>
           </p>
         </div>
       </div>
