@@ -31,34 +31,6 @@
     },
     {
       "type": "Feature",
-      "id": "bcws-incident-K51490",
-      "geometry": {
-        "bbox": [
-          -119.881,
-          49.6293,
-          -119.881,
-          49.6293
-        ],
-        "type": "Point",
-        "coordinates": [
-          -119.881,
-          49.6293
-        ]
-      },
-      "properties": {
-        "FIRE_NUMBER": "K51490",
-        "INCIDENT_NAME": "Bald Range",
-        "INCIDENT_NUMBER_LABEL": "K51490",
-        "INCIDENT_FIRE_YEAR": 2026,
-        "FIRE_STATUS": "Out of Control",
-        "FIRE_SIZE_HECTARES": null,
-        "TRACK_DATE": null,
-        "FIRE_URL": "https://wildfiresituation.nrs.gov.bc.ca/incidents?fireYear=2026&incidentNumber=K51490",
-        "DATA_SOURCE": "incident-point"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "bcws-incident-V11487",
       "geometry": {
         "bbox": [
@@ -900,8 +872,8 @@
   ],
   "metadata": {
     "source": "https://wildfiresituation.nrs.gov.bc.ca/wfnews-api/publicPublishedIncident/features",
-    "incident_point_count": 32,
-    "generated_at_utc": "2026-08-08T13:58:22+00:00",
+    "incident_point_count": 31,
+    "generated_at_utc": "2026-08-08T16:54:08+00:00",
     "note": "Active BCWS incidents without a published perimeter."
   }
 }
